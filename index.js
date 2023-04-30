@@ -37,6 +37,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './client/build/index.html'));
 });
 
-app.use('/auth/api', authRouter); 
-app.use('/task/api', taskRouter); 
-app.use('/profile/api',profileRouter );
+app.use('/auth', authRouter); 
+app.use('/task', taskRouter); 
+app.use('/profile',profileRouter );
