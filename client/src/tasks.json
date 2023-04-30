@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Finish homework",
+    "description": "Complete math and science homework",
+    "priority": "High",
+    "due_date": "2023-05-01",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "Buy groceries",
+    "description": "Milk, eggs, bread, cheese",
+    "priority": "Medium",
+    "due_date": "2023-05-02",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "title": "Do laundry",
+    "description": "Wash clothes and sheets",
+    "priority": "Low",
+    "due_date": "2023-05-03",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "title": "social studies",
+    "description": "Complete social studies homework",
+    "priority": "low",
+    "due_date": "2023-05-06",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "title": "study physics",
+    "description": "complete homework",
+    "priority": "Medium",
+    "due_date": "2023-05-08",
+    "completed": false
+  },
+  {
+    "id": 6,
+    "title": "Games",
+    "description": "play games",
+    "priority": "high",
+    "due_date": "2023-05-09",
+    "completed": false
+  },
+  {
+    "id": 7,
+    "title": "study algorithims",
+    "description": "focus on data strutures",
+    "priority": "medium",
+    "due_date": "2023-05-10",
+    "completed": true
+  },
+  {
+    "id": 8,
+    "title": "software engineering",
+    "description": "learn the basics",
+    "priority": "Medium",
+    "due_date": "2023-04-08",
+    "completed": true
+  },
+  {
+    "id": 9,
+    "title": "gym",
+    "description": "workout",
+    "priority": "high",
+    "due_date": "2023-05-06",
+    "completed": false
+  }
+]

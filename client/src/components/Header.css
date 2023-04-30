@@ -1,0 +1,12 @@
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: white;
+  background-color: transparent;
+}
