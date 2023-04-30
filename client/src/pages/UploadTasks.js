@@ -33,7 +33,7 @@ const UploadTasks = () => {
   
     try {
       console.log("task data..",taskData)
-      const response = await fetch('https://pink-nice-walrus.cyclic.app/task/api/tasks', {
+      const response = await fetch('https://black-earthworm-toga.cyclic.app/task/api/tasks', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -18,7 +18,7 @@ const RegisterPage = () => {
       return;
     }
     try {
-      const response = await fetch('https://pink-nice-walrus.cyclic.app/auth/api/register', {
+      const response = await fetch('https://black-earthworm-toga.cyclic.app/auth/api/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password }),

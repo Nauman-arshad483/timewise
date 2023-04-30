@@ -11,7 +11,7 @@ const LatestTasks = () => {
   useEffect(() => {
     const userData = JSON.parse(localStorage.getItem("userData"));
     const userId = userData._id;
-    fetch(`https://pink-nice-walrus.cyclic.app/task/api/tasks?userId=${userId}`)
+    fetch(`https://black-earthworm-toga.cyclic.app/task/api/tasks?userId=${userId}`)
       .then((response) => response.json())
       .then((tasks) => {
         const currentWeekTasks = tasks.filter((task) =>

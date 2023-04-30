@@ -13,7 +13,7 @@ const TaskList = () => {
     const token = localStorage.getItem('token');
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://pink-nice-walrus.cyclic.app/task/api/tasks?userId=${userId}`, {
+        const response = await fetch(`https://black-earthworm-toga.cyclic.app/task/api/tasks?userId=${userId}`, {
           method: "GET",
           headers: {
             'Content-Type': 'application/json',
@@ -64,7 +64,7 @@ const TaskList = () => {
     }
   };
   const handleComplete = (taskId) => {
-    fetch(`https://pink-nice-walrus.cyclic.app/task/api/tasks/${taskId}`, {
+    fetch(`https://black-earthworm-toga.cyclic.app/task/api/tasks/${taskId}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

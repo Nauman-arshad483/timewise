@@ -11,7 +11,7 @@ const LoginPage = () => {
  const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    const response = await fetch('https://pink-nice-walrus.cyclic.app/auth/api/login', {
+    const response = await fetch('https://black-earthworm-toga.cyclic.app/auth/api/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

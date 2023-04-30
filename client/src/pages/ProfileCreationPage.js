@@ -16,7 +16,7 @@ const ProfileCreationPage = () => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, major, userId })
     };
-    fetch('https://pink-nice-walrus.cyclic.app/profile/api/createProfile', requestOptions)
+    fetch('https://black-earthworm-toga.cyclic.app/profile/api/createProfile', requestOptions)
       .then(response => {
         if (response.ok) {
           console.log('Profile updated successfully');
