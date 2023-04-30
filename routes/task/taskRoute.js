@@ -31,6 +31,7 @@ router.post('/api/tasks', async (req, res) => {
 
 // Get all tasks for a user
 router.get('/api/tasks', async (req, res) => {
+  console.log("endpointhitted")
   const userId = req.query.userId;
   try {
     const tasks = await Task.find({ userId });
@@ -44,6 +45,7 @@ router.get('/api/tasks', async (req, res) => {
 
 // Mark a task as completed
 router.put('/api/tasks/:taskId', async (req, res) => {
+  console.log("complete button hitted")
   const taskId = req.params.taskId;
   const completed = req.body.completed;
   console.log('taskId:', taskId);
